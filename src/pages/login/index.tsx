@@ -111,7 +111,7 @@ const Login = () => {
                 <p>{errors.password?.message}</p>
                 <IoIosLock />
               </LoginInputFieldStyles>
-              {error ? (
+              {error && !errors.password?.message ? (
                 <>
                   <p>Please login with correct credentials</p>
                 </>
