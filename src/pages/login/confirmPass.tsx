@@ -7,7 +7,7 @@ import {
   LoginContainer,
   LogoContainer,
 } from "./Login.styled";
-import Logo from "../../images/Devfinity.svg";
+import Logo from "../../images/Infinite.svg";
 
 import { Link, useHistory } from "react-router-dom";
 import * as yup from "yup";
@@ -87,7 +87,7 @@ const ConfirmPass = () => {
       <ToastContainer autoClose={2000} />
       <HomePageContainer>
         <LogoContainer>
-          <img src={Logo} alt="Devfinity Logo" />
+          <img src={Logo} alt="HR Logo" />
         </LogoContainer>
         <LoginHeader>
           <form onSubmit={handleSubmit(submitForm)}>

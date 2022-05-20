@@ -13,8 +13,8 @@ import {
 import { useAppSelector } from "../../app/hooks";
 import { sideBarHidden } from "../navBar/selector";
 import UserImage from "../../images/UserImage.png";
-import Logo from "../../images/Devfinity.svg";
-import HalfLogo from "../../images/Devfinity-icon.png";
+import Logo from "../../images/Infinite.svg";
+import HalfLogo from "../../images/Infinite-icon.svg";
 import LoginMenu from "../dropdown";
 import userDetails from "../../utilities/localStorage";
 
@@ -29,15 +29,15 @@ const SideBar = () => {
         <DesktopViewLogo>
           <Link to="/">
             {sideBar ? (
-              <img src={HalfLogo} alt="devfinity-logo"></img>
+              <img src={HalfLogo} alt="HR-logo"></img>
             ) : (
-              <img src={Logo} alt="devfinity-icon"></img>
+              <img src={Logo} alt="HR-icon"></img>
             )}
           </Link>
         </DesktopViewLogo>
         <MobileViewLogo>
           <Link to="/">
-            <img src={Logo} alt="devfinity-icon"></img>
+            <img src={Logo} alt="HR-icon"></img>
           </Link>
         </MobileViewLogo>
       </SideBarLogo>
