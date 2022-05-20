@@ -1,0 +1,347 @@
+{
+  "person": [
+    {
+      "Image": "../images/UserImage.png",
+      "EmployeeId": "1",
+      "FirstName": "Johns",
+      "LastName": " Doe",
+      "EmailAddress": "johndoe@devfinity.io",
+      "MobileNumber": 9840011223,
+      "DOB": "2021-11-26T18:15:00.000Z",
+      "JoinedDate": "2021-12-15T18:15:00.000Z",
+      "Supervisor": "Suraj Vaidya",
+      "Department": "Frontend",
+      "Role": "Admin",
+      "PermanentAddress": "baneshwor",
+      "TemporaryAddress": "baneshwor",
+      "Password": "abc123",
+      "SkypeId": "abc",
+      "GithubId": "abc",
+      "Designation": "Managing Director",
+      "id": 1
+    },
+    {
+      "Image": "../images/UserImage.png",
+      "EmployeeId": "2",
+      "FirstName": "Udaya",
+      "LastName": " Panday",
+      "EmailAddress": "upanday@devfinity.io",
+      "MobileNumber": 9840011223,
+      "DOB": "2021-11-26T18:15:00.000Z",
+      "JoinedDate": "2021-12-15T18:15:00.000Z",
+      "Supervisor": "Suraj Vaidya",
+      "Department": "Frontend",
+      "Role": "Employee",
+      "PermanentAddress": "baneshwor",
+      "TemporaryAddress": "baneshwor",
+      "Password": "abc123",
+      "SkypeId": "udayarpanday",
+      "GithubId": "abc",
+      "Designation": "Software Engineer",
+      "id": 2
+    },
+    {
+      "Image": "../images/UserImage.png",
+      "EmployeeId": "3",
+      "FirstName": "Rajiv",
+      "LastName": " Joshi",
+      "EmailAddress": "rjoshi@devfinitty.io",
+      "MobileNumber": 9813412312,
+      "DOB": "2005-01-30T18:15:00.000Z",
+      "JoinedDate": "2021-12-17T18:15:00.000Z",
+      "Supervisor": "Suraj Vaidya",
+      "Department": "Frontend",
+      "Role": "Admin",
+      "PermanentAddress": "baneshwor",
+      "TemporaryAddress": "baneshwor",
+      "Password": "abc123",
+      "id": 3
+    },
+    {
+      "Image": "../images/UserImage.png",
+      "EmployeeId": "4",
+      "FirstName": "Santosh",
+      "LastName": "Shrestha",
+      "EmailAddress": "sshrestha@devfinity.io",
+      "MobileNumber": 9826178171,
+      "DOB": "1990-12-31T18:15:00.000Z",
+      "JoinedDate": "2021-12-23T18:15:00.000Z",
+      "Supervisor": "Shawn Barber",
+      "Department": "Backend",
+      "Role": "Admin",
+      "PermanentAddress": "sunseri",
+      "TemporaryAddress": "sss",
+      "Password": "abc123",
+      "SkypeId": "@santosh12",
+      "GithubId": "santosh_23",
+      "Designation": "Project Manager",
+      "id": 4
+    },
+    {
+      "Image": "../images/UserImage.png",
+      "EmployeeId": "5",
+      "FirstName": "John ",
+      "LastName": "Doe",
+      "EmailAddress": "johndoe@devfinity.com",
+      "MobileNumber": 123456789,
+      "DOB": "2021-10-04T18:15:00.000Z",
+      "JoinedDate": "2021-12-24T18:15:00.000Z",
+      "Supervisor": "Suraj Vaidya",
+      "Department": "Backend",
+      "Role": "Admin",
+      "PermanentAddress": "dgfdefdfd",
+      "TemporaryAddress": "fdfdfd",
+      "Password": "abc123",
+      "id": 5
+    },
+    {
+      "Image": "../images/UserImage.png",
+      "EmployeeId": "6",
+      "FirstName": "Sanjay",
+      "LastName": "KC",
+      "EmailAddress": "abc@gmail.com",
+      "MobileNumber": 987687688979,
+      "DOB": "2022-01-04T10:51:47.818Z",
+      "JoinedDate": "2022-02-04T10:51:47.000Z",
+      "Supervisor": "Kreeti Karmacharya",
+      "Department": "Frontend",
+      "Role": "Employee",
+      "PermanentAddress": "baneshwor",
+      "TemporaryAddress": "baneshwor",
+      "Password": "abc123",
+      "SkypeId": "abc",
+      "GithubId": "abc",
+      "Designation": "Software Engineer",
+      "id": 6
+    },
+    {
+      "Image": "../images/UserImage.png",
+      "EmployeeId": "7",
+      "FirstName": "Raj",
+      "LastName": "Pathak",
+      "EmailAddress": "rpathak@devfinity.io",
+      "MobileNumber": 12789312,
+      "DOB": "2022-01-04T12:14:42.276Z",
+      "JoinedDate": "2022-01-04T12:14:42.276Z",
+      "Supervisor": "Shawn Barber",
+      "Department": "Management",
+      "Role": "Admin",
+      "PermanentAddress": "baneshwor",
+      "TemporaryAddress": "baneshwor",
+      "Password": "abc123",
+      "SkypeId": "rajpathak",
+      "GithubId": "rajpathak",
+      "Designation": "Software Engineer",
+      "id": 7
+    }
+  ],
+  "projects": [
+    {
+      "Image": "../images/UserImage.png",
+      "ProjectName": "HRM",
+      "StartDate": "2021-11-28T05:21:05.000Z",
+      "EndDate": "2021-12-31T05:21:05.000Z",
+      "TeamMember": [
+        {
+          "name": "Rajiv",
+          "image": "../images/UserImage.png",
+          "id": 3
+        },
+        {
+          "name": "John ",
+          "image": "../images/UserImage.png",
+          "id": 5
+        },
+        {
+          "name": "Udaya",
+          "image": "../images/UserImage.png",
+          "id": 2
+        },
+        {
+          "name": "John",
+          "image": "../images/UserImage.png",
+          "id": 1
+        },
+        {
+          "name": "Santosh",
+          "image": "../images/UserImage.png",
+          "id": 4
+        },
+        {
+          "name": "Sanjay",
+          "image": "../images/UserImage.png",
+          "id": 6
+        },
+        {
+          "name": "Raj",
+          "image": "../images/UserImage.png",
+          "id": 7
+        }
+      ],
+      "TeamLead": "Suraj",
+      "id": 7
+    },
+    {
+      "Image": "../images/UserImage.png",
+      "ProjectName": "my sherpas",
+      "StartDate": "2021-12-24T09:32:40.000Z",
+      "EndDate": "2021-12-30T09:32:40.000Z",
+      "TeamMember": [
+        {
+          "name": "Udaya",
+          "image": "../images/UserImage.png",
+          "id": 2
+        },
+        {
+          "name": "John",
+          "image": "../images/UserImage.png",
+          "id": 1
+        },
+        {
+          "name": "John ",
+          "image": "../images/UserImage.png",
+          "id": 5
+        },
+        {
+          "name": "Sanjay",
+          "image": "../images/UserImage.png",
+          "id": 6
+        }
+      ],
+      "TeamLead": "Santosh ",
+      "id": 8
+    },
+    {
+      "Image": "../images/UserImage.png",
+      "ProjectName": "my sherpas",
+      "StartDate": "2022-01-03T05:45:05.000Z",
+      "EndDate": "2022-01-21T05:45:05.000Z",
+      "TeamMember": [
+        {
+          "name": "Udaya",
+          "image": "../images/UserImage.png",
+          "id": 2
+        }
+      ],
+      "TeamLead": "Rajiv",
+      "id": 9
+    }
+  ],
+  "leaveRecords": [
+    {
+      "Image": "../images/UserImage.png",
+      "Name": "Udaya  Panday",
+      "EmployeeId": "2",
+      "LeaveFrom": "2021-12-24T18:15:00.000Z",
+      "LeaveTo": "2021-12-28T18:15:00.000Z",
+      "LeaveType": "Normal Leave",
+      "LeaveReason": "Hello my name is udaya and i should appear in leave records when i am logged in as now",
+      "Status": "Pending",
+      "id": 8
+    },
+    {
+      "Name": "Udaya Panday",
+      "EmployeeId": "2",
+      "LeaveFrom": "12/08/2021",
+      "LeaveTo": "12/10/2021",
+      "LeaveType": "Sick Leave",
+      "LeaveReason": "I am suffering from cold",
+      "Status": "Approved",
+      "id": 9
+    },
+    {
+      "Name": "John Doe",
+      "EmployeeId": "1",
+      "LeaveFrom": "2021-12-16T08:22:39.277Z",
+      "LeaveTo": "2021-12-16T08:22:39.277Z",
+      "LeaveType": "Normal Leave",
+      "LeaveReason": "I am going out of valley",
+      "Status": "Approved",
+      "id": 11
+    },
+    {
+      "Name": "John  Doe",
+      "EmployeeId": "3",
+      "LeaveFrom": "2021-12-23T04:25:59.000Z",
+      "LeaveTo": "2021-12-24T04:25:59.000Z",
+      "LeaveType": "Sick Leave",
+      "LeaveReason": "I am sick today",
+      "Status": "Approved",
+      "id": 12
+    },
+    {
+      "Name": "John  Doe",
+      "EmployeeId": "1",
+      "LeaveFrom": "2021-12-15T05:58:30.000Z",
+      "LeaveTo": "2021-12-21T05:58:30.000Z",
+      "LeaveType": "Sick Leave",
+      "LeaveReason": "I am very sick today",
+      "Status": "Declined",
+      "id": 13
+    },
+    {
+      "Name": "John  Doe",
+      "EmployeeId": "1",
+      "LeaveFrom": "2022-01-03T05:33:07.003Z",
+      "LeaveTo": "2022-01-03T05:33:07.003Z",
+      "LeaveType": "Normal Leave",
+      "LeaveReason": "Sick",
+      "Status": "Declined",
+      "id": 14
+    },
+    {
+      "Name": "John  Doe",
+      "EmployeeId": "1",
+      "LeaveFrom": "2022-01-04T09:34:39.000Z",
+      "LeaveTo": "2022-01-20T09:34:39.000Z",
+      "LeaveType": "Sick Leave",
+      "LeaveReason": "I need leave for few days",
+      "Status": "Approved",
+      "id": 15
+    }
+  ],
+  "addEvents": [
+    {
+      "start": "2021-12-30T07:09:01.000Z",
+      "end": "2021-12-31T07:09:01.000Z",
+      "title": "Work From Home Days",
+      "description": "enjoys",
+      "id": 1
+    },
+    {
+      "start": "2021-12-28T07:14:45.000Z",
+      "end": "2021-12-31T07:14:45.000Z",
+      "title": "New Year",
+      "description": "Happy New Year!!",
+      "id": 2
+    },
+    {
+      "start": "2021-12-22T07:15:17.000Z",
+      "end": "2022-01-01T07:15:17.000Z",
+      "title": "New",
+      "description": "Hi",
+      "id": 3
+    },
+    {
+      "start": "2021-12-02T07:15:49.000Z",
+      "end": "2021-12-30T07:15:49.000Z",
+      "title": "Hello",
+      "description": "hello",
+      "id": 4
+    },
+    {
+      "start": "2022-01-03T05:32:36.201Z",
+      "end": "2022-01-05T05:32:36.000Z",
+      "title": "Work From Home Day",
+      "description": "ababcabca",
+      "id": 5
+    },
+    {
+      "start": "2022-01-03T10:04:44.000Z",
+      "end": "2022-01-03T10:04:44.266Z",
+      "title": "New Event",
+      "description": "hi",
+      "id": 6
+    }
+  ]
+}
